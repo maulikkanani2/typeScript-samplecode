@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`auth.reducer COMPLETE_NEW_PASSWORD_SUCCEEDED action it should return new password with user 1`] = `
+Object {
+  "challenge": undefined,
+  "error": undefined,
+  "pending": false,
+  "user": Object {
+    "cognitoUser": null,
+    "userName": "sogisiyi@freetmail.in",
+  },
+}
+`;
+
+exports[`auth.reducer RETRIEVE_CURRENT_USER_FAILED action it should return next state with user 1`] = `
+Object {
+  "error": undefined,
+  "pending": false,
+  "user": Object {
+    "cognitoUser": null,
+    "userName": "sogisiyi@freetmail.in",
+  },
+}
+`;
+
+exports[`auth.reducer RETRIEVE_CURRENT_USER_SUCCEEDED action it should return from retive current user 1`] = `
+Object {
+  "error": undefined,
+  "pending": false,
+  "user": Object {
+    "cognitoUser": null,
+    "userName": "sogisiyi@freetmail.in",
+  },
+}
+`;
+
+exports[`auth.reducer SIGN_IN_SUCCEEDED action it should return new password In success  state with user 1`] = `
+Object {
+  "challenge": Object {
+    "challengeName": "NEW_PASSWORD_REQUIRED",
+    "challengeParams": Object {
+      "username": "sogisiyi@freetmail.in",
+    },
+  },
+  "error": undefined,
+  "pending": false,
+  "user": Object {
+    "cognitoUser": null,
+    "userName": "sogisiyi@freetmail.in",
+  },
+}
+`;
+
+exports[`auth.reducer SIGN_IN_SUCCEEDED action it should return sign In success state with user 1`] = `
+Object {
+  "challenge": undefined,
+  "error": undefined,
+  "pending": false,
+  "user": Object {
+    "cognitoUser": null,
+    "userName": "sogisiyi@freetmail.in",
+  },
+}
+`;

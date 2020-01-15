@@ -1,0 +1,32 @@
+{
+    "app_domain_name": {
+        "sensitive": false,
+        "type": "string",
+        "value": "app.apitracker.com"
+    },
+    "cognito_user_pool_client_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "76a56u9s763gqo5bh8n189kfui"
+    },
+    "cognito_user_pool_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "us-east-1_ltUHi9q51"
+    },
+    "identity_pool_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "us-east-1:b1f9ab41-a1e3-406c-978d-47f4c5feb5a8"
+    },
+    "s3_deploy_bucket": {
+        "sensitive": false,
+        "type": "string",
+        "value": "apitracker-web-client-prod"
+    },
+    "website_cdn_hostname": {
+        "sensitive": false,
+        "type": "string",
+        "value": "dmfdea0rm35pj.cloudfront.net"
+    }
+}
